@@ -1,1 +1,4 @@
 *.cbp
+*.o
+/true_2348/true_2348.depend
+/true_2348/bin/Debug/true_2348.exe
