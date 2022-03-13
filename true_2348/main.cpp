@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <vector>
 using namespace std;
 /* 1. запомнить и вывести числа
    2. вывести тройки чисел
@@ -9,5 +9,12 @@ using namespace std;
 */
 int main()
 {
+    int n(0);
+    cin >> n;
+    vector<int> numbers(n);
+    for(int i(0);i<n; i++)
+        cin >> numbers[i];
+    for(int i(0);i<n; i++)
+        cout << numbers[i];
     return 0;
 }
