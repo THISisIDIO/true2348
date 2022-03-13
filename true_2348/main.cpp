@@ -10,6 +10,7 @@ using namespace std;
 int main()
 {
     int n(0);
+    int k(0);
     cin >> n;
     vector<int> numbers(n);
     for(int i(0);i<n; i++)
@@ -20,7 +21,8 @@ int main()
         {
             int sum1=numbers[i]+numbers[j]+numbers[l];
             if (sum1%4==0)
-                cout << sum1<< endl;
+                k+=1;
         }
+    cout << k << endl;
     return 0;
 }
